@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Istok Web';
+    color: white;
+}
+
+a {text-decoration: none; }
+
+.screen {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #263238;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: #ff4d06;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    align-items: left ;
+    height: 50px;
+    width: 100%;
+    font-size: 40px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu{
+    font-size:large;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 50px;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+div.menu_item:hover {
+    background-color: #263238;
+}
+
+.main {
+    background-color: #4f5b62;
+    height: 1200px;
+    width: 100%;
+    display: flex;
+}
+
+.footer {
+    background-color: rgb(71, 71, 71);
+    height: 100px;
+    width: 100%;
+}
+
+.about {
+    margin: 25px;
+}
+
+.about_n {
+    font-size: 30px;
+}
