@@ -28,13 +28,11 @@ a {
 
 .title {
     display: flex;
-    align-items: left;
-    height: 50px;
+    align-items: center;
+    height: 70px;
     width: 100%;
     font-size: 40px;
     justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .menu {
@@ -157,6 +155,69 @@ div.menu_item:hover {
     font-size: x-large;
 }
 
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 100%;
+    padding: 2.5%;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#263238, #4f5b62);
+    
+}
+
+.c_heading {
+    width: 90%;
+    padding: 2.5%;
+    margin-bottom: 2.5%;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+.form {
+    width: 90%;
+    height: 300px;
+    padding: 2.5%;
+}
+
+.input_r {
+    margin-top: 2.5%;
+}
+
+input {
+    background-color: #ff4d06;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    line-height: unset;
+}
+
+textarea {
+    padding: 4px 4px 4px 4px;
+    background-color: #ff4d06;
+    border-radius: 5px;
+}
+
+::placeholder {
+    padding-left: 5px;
+    color: white;
+    opacity: 1;
+  }
+
+.input_l {
+    border: none;
+    color: white;
+}
+
+input[type="text"] {
+    height: 30px;
+    line-height: 30px;
+    vertical-alignment: center
+  }
+
+
+
 @media only screen and (min-width: 426px) {
     .header {
         flex-direction: row;
@@ -166,9 +227,9 @@ div.menu_item:hover {
    }
 
    .title {
-       height: inherit;
+       height: 120px;
        align-items: center;
-       width: 30%;
+       width: 40%;
    }
 
    .menu {
@@ -238,4 +299,3 @@ div.menu_item:hover {
         background-image: linear-gradient(to left, #263238, #48535a);
     }
 }
-
