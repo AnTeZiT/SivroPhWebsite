@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Istok Web';
     color: white;
-    min-height: 1vh;
 }
 
 a {
@@ -13,6 +12,7 @@ a {
 
 body {
     background-color: #263238;
+    overflow-x: hidden;
 }
 
 .screen {
@@ -177,9 +177,8 @@ div.menu_item:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 100%;
+    font-size: large;
     padding: 2.5%;
-    margin: 3% 0;
     width: 90%;
     height: 100%;
     background-image: linear-gradient(#263238, #4f5b62);
@@ -200,7 +199,7 @@ div.menu_item:hover {
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 50%;
+    height: 70%;
     padding: 2.5%;
 }
 
@@ -208,7 +207,7 @@ input {
     width: 90%;
     height: 30px;
     border: none;
-    margin-top: 2.5%;
+    margin-top: 2em;
     line-height: unset;
     border-radius: 5px;
     background-color: #ff4d06;
@@ -216,7 +215,7 @@ input {
 
 textarea {
     width: 90%;
-    margin-top: 2.5%;
+    margin-top: 2em;
     border-radius: 5px;
     background-color: #ff4d06;
     padding: 4px 4px 4px 4px;
@@ -237,6 +236,31 @@ input[type="text"] {
     height: 30px;
     line-height: 30px;
     vertical-align: middle;
+}
+
+button{
+    background-color: #263238;
+    border: none;
+    transition-duration: 0.4s;
+    width: 30%;
+    height: 50px;
+    margin-top: 2em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff4d06;
+}
+
+.about_m {
+    width: 90%;
+    height: 100%;
+    background-image: linear-gradient(#263238, #4f5b62);
+    padding: 1em;
+}
+
+.about_n {
+    font-size: x-large;
 }
 
 @media only screen and (min-width: 426px) {
