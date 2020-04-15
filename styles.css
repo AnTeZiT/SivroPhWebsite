@@ -93,6 +93,10 @@ div.menu_item:hover {
     align-items: center;
 }
 
+.main_r {
+    background-color: red;
+}
+
 .section {
     width: 95%;
     margin-top: 2.5%;
@@ -159,8 +163,66 @@ div.menu_item:hover {
     font-size: 30px;
 }*/
 
-@media only screen and (min-width: 425px) {
+@media only screen and (min-width: 426px) {
+    .header {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+   }
+
+   .title {
+       height: inherit;
+       align-items: center;
+       width: 30%;
+   }
+
+   .menu {
+       max-width: 50%;
+       height: inherit;
+       align-items: flex-end;
+   }
+
+    .main {
+        flex-direction: row-reverse;
+        align-items: unset;
+        justify-content: center;
+        width: 90%;
+    }
+    
     .sidebar {
+        height: 420px;
+        margin-top: 1.5%;
+        padding: 1.5%;
+        height: unset;
+    }
+
+    .main_l {
+        margin-top: 1.5%
+    }
+
+    .section {
+        margin-top: 0px;
+        flex-direction: row;
+    }
+
+    .phototext {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin-left: 2.5%;
+    }
+
+    #s2 {
+        flex-direction: row-reverse;
+    }
+
+    #s1,#s3 {
+        background-image: linear-gradient(to right, #263238, #48535a);
+    }
+
+    #s2 {
+        background-image: linear-gradient(to left, #263238, #48535a);
     }
 }
 
