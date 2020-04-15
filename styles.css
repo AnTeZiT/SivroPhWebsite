@@ -131,6 +131,8 @@ div.menu_item:hover {
 
 .text {
     line-height: 100%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .footer {
@@ -154,14 +156,6 @@ div.menu_item:hover {
 .fab {
     font-size: x-large;
 }
-/*
-.about {
-    margin: 25px;
-}
-
-.about_n {
-    font-size: 30px;
-}*/
 
 @media only screen and (min-width: 426px) {
     .header {
@@ -188,13 +182,15 @@ div.menu_item:hover {
         align-items: unset;
         justify-content: center;
         width: 90%;
+        height: 900px;
     }
     
     .sidebar {
         height: 420px;
-        margin-top: 1.5%;
+        margin-top: 0%;
         padding: 1.5%;
         height: unset;
+        background-image: linear-gradient( #263238, #4f5b62);
     }
 
     .main_l {
@@ -204,6 +200,18 @@ div.menu_item:hover {
     .section {
         margin-top: 0px;
         flex-direction: row;
+        float: left;
+        height: 300px;
+    }
+
+    .photo {
+        display: unset;
+        max-height: 350px;
+        width: auto;
+    }
+
+    .heading {
+        margin-bottom: 1.5%;
     }
 
     .phototext {
@@ -211,6 +219,11 @@ div.menu_item:hover {
         flex-direction: column;
         width: 40%;
         margin-left: 2.5%;
+    }
+
+    #pt2 {
+        margin-left: unset;
+        margin-right: 2.5%;
     }
 
     #s2 {
